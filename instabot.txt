@@ -1,0 +1,7 @@
+from instabot import Bot
+#the main object for python automation
+bot = Bot()
+
+bot.login(username="yourUsername", password="yourPassword")
+
+bot.upload_photo("imageFile.jpg", caption="The caption you want.")
